@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+
+
+
+<html>
+    
+
+    <head>
+        
+        
+<meta charset="utf-8">
+        <meta name ="description"  content= "description de la page">
+        <meta name="keywords" content="Ecrire ici les mots clés">
+        <meta name="viewport" content="width-device-white, initial-scale-1">
+        
+    </head>
+        
+        <body>
+        
+            <canvas id="my_Canvas" width="600" height="400" style="border:1px solid"></canvas>
+        
+        
+        
+    
+        <script type="text/javascript" "src=drapeau.js">
+        var c = document.getElementById("my_Canvas");
+            
+        var ctx = c.getContext("2d");
+            
+        ctx.beginPath();
+        ctx.moveTo(50,50);
+        ctx.lineTo(60,50);
+        ctx.lineTo(60,400);
+        ctx.lineTo(50,400);
+        ctx.lineTo(50,50);
+        ctx.lineTo(60,50);
+        ctx.stroke();  
+        
+               
+        ctx.fillStyle = "black";
+        ctx.fillRect(62, 50, 200 , 200);
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(65, 50 , 135, 200);
+        ctx.fillStyle = "red";
+        ctx.fillRect(130, 50 , 70, 200);
+        
+    
+
+        
+
+            
+            
+            
+    
+        
+    
+
+        
+        
+        
+        </script>    
+        
+    
+        
+       
+        
+        
+        
+        
+        
+    </body>
+</html>
+    
